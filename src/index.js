@@ -21,4 +21,4 @@ $('a[href^="#"]').on('click', function(event) {
 
 initSr();
 initTilt();
-console.log(timeGreeting());
+timeGreeting();
