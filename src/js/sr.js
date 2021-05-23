@@ -18,21 +18,54 @@ export default function() {
   );
 
   /* Hero Section */
-  ScrollReveal().reveal('.hero-title', 
+  // ScrollReveal().reveal('.hero-title', 
+  //   assignProps(
+  //     { 
+  //       delay: 500, 
+  //       origin: window.innerWidth > 768 ? 'left' : 'bottom'
+  //     }, defaultProps)
+  // );
+  
+
+  
+  ScrollReveal().reveal('._I', 
     assignProps(
       { 
-        delay: 500, 
+        delay: 100, 
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
+  ScrollReveal().reveal('._sa', 
+  assignProps(
+    { 
+      delay: 400, 
+      origin: window.innerWidth > 768 ? 'left' : 'bottom'
+    }, defaultProps)
+);
+
+ScrollReveal().reveal('._be', 
+assignProps(
+  { 
+    delay: 700, 
+    origin: window.innerWidth > 768 ? 'left' : 'bottom'
+  }, defaultProps)
+);
+
+ScrollReveal().reveal('._au', 
+assignProps(
+  { 
+    delay: 1000, 
+    origin: window.innerWidth > 768 ? 'left' : 'bottom'
+  }, defaultProps)
+);
   
-  ScrollReveal().reveal('.hero-cta', 
-    assignProps(
-      {
-        delay: 1000, 
-        origin: window.innerWidth > 768 ? 'left' : 'bottom'
-      }, defaultProps)
-  );
+  // ScrollReveal().reveal('.hero-cta', 
+  //   assignProps(
+  //     {
+  //       delay: 1000, 
+  //       origin: window.innerWidth > 768 ? 'left' : 'bottom'
+  //     }, defaultProps)
+  // );
 
   /* About Section */
   ScrollReveal().reveal('.about-wrapper__image', 
